@@ -10,7 +10,6 @@ body{
     color: white;
     overflow-x: hidden;
 }
-
 header{
     width: 100vw;
     display: flex;
@@ -208,6 +207,12 @@ span#loading{
 @media screen and (max-width: 640px){
     header{
         height: 3rem;
+    }
+    header div#home{
+        margin-left: 0.5rem;
+    }
+    header div#home a{
+        font-size: 1.5rem;
     }
     div#chat_options p{
         padding: 0.4rem 0.9rem;
