@@ -68,7 +68,7 @@ Welcome to FlaskGem, an AI-based web application created using Flask. FlaskGem u
 
 3. **API Key**:
    - Please obtain your own API key from the Gemini AI platform at [https://ai.google.dev/](https://ai.google.dev/).
-   - Replace the placeholder API key in the (`.env`) file your own API key for proper functionality.
+   - Replace the placeholder API key in the (`.env`) file with your own API key for proper functionality.
 
 ## Support and Feedback
 
