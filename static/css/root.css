@@ -112,7 +112,8 @@ div.container div#links a:hover{
         min-height: 85vh;
         flex-direction: column;
         justify-content: space-evenly;
-    }div.container div#logo_desc img{
+    }
+    div.container div#logo_desc img{
         height: 9rem;
     }
     div.container div#logo_desc p{
@@ -126,7 +127,8 @@ div.container div#links a:hover{
         gap: 1.5rem;
     }
     div.container div#links a{
-        width: 60%;
+        width: 65%;
+        aspect-ratio: 1.7/1;
     }
     div.container div#links a i{
         font-size: 2rem;
