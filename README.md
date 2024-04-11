@@ -4,7 +4,7 @@
 
 Welcome to FlaskGem, an AI-based web application created using Flask. FlaskGem utilizes the Gemini AI platform to provide text and image query capabilities. This documentation will guide you through the features and usage of FlaskGem.
 
-Access the web-app: https://flask-gem.onrender.com/
+Access the web-app: https://flask-gem.onrender.com
 
 ![Logo](./static/flask_gem_avatar.png)
 
