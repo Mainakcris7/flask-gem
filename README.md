@@ -75,5 +75,3 @@ Welcome to FlaskGem, an AI-based web application created using Flask. FlaskGem u
 For support or feedback regarding FlaskGem, please contact [mainakcr72002@gmail.com](mainakcr72002@gmail.com).
 
 ---
-
-This documentation provides an overview of FlaskGem and its usage. For detailed implementation instructions and code snippets, refer to the FlaskGem repository's README.md file.
