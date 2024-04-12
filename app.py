@@ -7,7 +7,10 @@ from markdown import markdown
 
 load_dotenv('.env')
 genai.configure(api_key=os.getenv('API_KEY'))
+
 model = genai.GenerativeModel('gemini-pro')
+chat_model = model.start_chat(history=[])
+
 img_model = genai.GenerativeModel('gemini-pro-vision')
 
 app = Flask(__name__)
@@ -27,7 +30,8 @@ def chat():
         if (len(query.strip()) == 0):
             return jsonify("Please enter something!")
         try:
-            gemini_response = model.generate_content(query).text
+            gemini_response = chat_model.send_message(
+                query).text   # Send message based on the chat history
         except:
             return jsonify("Something went wrong!")
 
