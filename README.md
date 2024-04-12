@@ -8,6 +8,15 @@ Access the web-app: https://flask-gem.onrender.com
 
 ![Logo](./static/flask_gem_avatar.png)
 
+### Release Note: v1.1.0
+
+#### New Feature: Chat Based on History
+
+- Introducing the new "Chat Based on History" feature in FlaskGem v1.1.0!
+- Users can now access previous chat history within the application.
+- Easily review past conversations and continue discussions seamlessly.
+- Enhances user experience by providing context and continuity in chats.
+
 ## Features
 
 1. **Text and Image Queries**: FlaskGem allows users to make both text and image queries to the Gemini AI platform.
