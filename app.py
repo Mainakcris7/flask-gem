@@ -9,7 +9,7 @@ load_dotenv('.env')
 genai.configure(api_key=os.getenv('API_KEY'))
 
 model = genai.GenerativeModel('gemini-pro')
-chat_model = model.start_chat(history=[])
+chat_model = model.start_chat(history=[])   # chat based on history
 
 img_model = genai.GenerativeModel('gemini-pro-vision')
 
