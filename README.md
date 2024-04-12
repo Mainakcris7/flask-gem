@@ -25,7 +25,7 @@ Access the web-app: https://flask-gem.onrender.com
 
 1. Clone the FlaskGem repository from GitHub.
    ```bash
-   https://github.com/Mainakcris7/flask-gem.git
+   git clone https://github.com/Mainakcris7/flask-gem.git
    ```
 2. Navigate to the FlaskGem directory.
    ```bash
@@ -33,7 +33,7 @@ Access the web-app: https://flask-gem.onrender.com
    ```
 3. Install the packages from requirements.txt (may exclude `Gunicorn`)
    ```bash
-   pip install requirements.txt
+   pip install -r requirements.txt
    ```
 4. Run `python app.py` from your preferred terminal.
 
