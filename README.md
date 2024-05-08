@@ -1,4 +1,4 @@
-# FlaskGem (v1.1.0)
+# FlaskGem (v1.1.1)
 
 ## Introduction
 
