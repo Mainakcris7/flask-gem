@@ -1,4 +1,4 @@
-let chat_options = document.getElementById("chat_options")
+let chat_options = document.getElementById("selected_option")
 let options = document.getElementById("options")
 let down_arrow = document.querySelector("div#chat_options p i")
 

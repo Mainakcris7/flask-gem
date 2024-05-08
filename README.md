@@ -8,6 +8,10 @@ Access the web-app: https://flask-gem.onrender.com
 
 ![Logo](./static/flask_gem_avatar.png)
 
+### Release Note: v1.1.1
+
+- Minor bug fixed
+
 ### Release Note: v1.1.0
 
 #### New Feature: Chat Based on History
