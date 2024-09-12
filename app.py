@@ -11,7 +11,7 @@ genai.configure(api_key=os.getenv('API_KEY'))
 model = genai.GenerativeModel('gemini-pro')
 chat_model = model.start_chat(history=[])   # chat based on history
 
-img_model = genai.GenerativeModel('gemini-pro-vision')
+img_model = genai.GenerativeModel('gemini-1.5-flash')
 
 app = Flask(__name__)
 
@@ -32,7 +32,8 @@ def chat():
         try:
             gemini_response = chat_model.send_message(
                 query).text   # Send message based on the chat history
-        except:
+        except Exception as e:
+            print(e)
             return jsonify("Something went wrong!")
 
         return jsonify(markdown(gemini_response))
@@ -52,7 +53,8 @@ def image_chat():
         try:
             response = img_model.generate_content(
                 [q, image])   # Generate content for the image
-        except:
+        except Exception as e:
+            print(e)
             return jsonify("Something went wrong!")
         return jsonify(markdown(response.text))
     else:
