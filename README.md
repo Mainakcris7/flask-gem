@@ -1,5 +1,5 @@
 # FlaskGem (v1.1.1)
-
+*⚠️ FlaskGem may encounter issues functioning correctly due to changes in Google Gemini's policies, including the use of outdated versions and rate limit restrictions.*
 ## Introduction
 
 Welcome to FlaskGem, an AI-based web application created using Flask. FlaskGem utilizes the Gemini AI platform to provide text and image query capabilities. This documentation will guide you through the features and usage of FlaskGem.
